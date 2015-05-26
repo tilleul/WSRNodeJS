@@ -321,7 +321,7 @@ var askme = function(tts, grammar, timeout, callback){
       } else {
         SARAH.askme(tts, grammar, -timeout, callback);
       }
-  }, Math.abs(timeout) || 8000);
+  }, Math.abs(timeout) || 16000);
 }
 
 var answerme = function(req, res, next){
